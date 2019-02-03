@@ -40,6 +40,6 @@
 
 	<filter-mapping>
 		<filter-name>DemoFilter</filter-name>
-		<servlet-name>DemoServlet</servlet-name>
+		<url-pattern>/*</url-pattern>
 	</filter-mapping>
 </web-app>
